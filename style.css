@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    
+    font-family: "inter";
+}
+
+#menu-superior {
+    background-color: #303030; 
+    color: white; 
+    display: block; 
+    text-align: left; 
+    padding: 10px 20px; 
+}
+
+#titulo-menu-superior {
+    background-color: #303030;
+    color: #FFFFFF;
+    font-size: 62px;
+    margin-top: 206px;
+    margin-left: 62px;
+    margin-right: 72px;
+    margin-bottom: 20px; 
+ }
+
+#texto-menu-superior {
+    background-color: #303030;
+    color: #FFFFFF;
+    font-size: 22px;
+    margin-left: 62px;
+    margin-top: 0px;
+    margin-bottom: 100px; 
+}
+
+
+
+#menu-informacional {
+    background-color: #F9F9F9;
+    color: #000000;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    gap: 20px; 
+    padding: 50px; 
+    text-align: left; 
+    
+    
+}
+
+
+.menu-item {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    font-size: 20px;
+}
+
+.texto-informativo {
+    margin-top: 10px; 
+    font-size: 22px; 
+    color: #555; 
+    margin-top: 0px;
+}
+
+
+
+#corpo-pagina {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    margin: 50px; 
+}
+
+
+#conteudo-texto {
+    flex: 1; 
+    text-align: center;
+    display: flex; 
+    flex-direction: column; 
+    text-align: left; 
+    gap: 10px; 
+}
+
+
+#titulo-corpo-pagina {
+    font-size: 2rem; 
+    margin: 0; 
+    margin-left: 100px;
+}
+
+
+#texto-corpo-pagina {
+    font-size: 1rem; 
+    line-height: 1.5; 
+    margin: 0; 
+    margin-left: 100px;
+}
+
+
+#imagem-corpo-pagina {
+    max-width: 50%; 
+    height: auto; 
+    margin-left: auto; 
+}
+
+#formulario{
+    background-color: #303030;
+    color: white;
+    text-align: center;
+    margin: 25px;
+    padding: 50px 20px; 
+}
+
+
+#titulo-formulario{
+    font-size: 32px;
+    margin: 50px;
+    margin-top: 50px;
+    color: white;
+}
+
+input{
+    width: 300px;
+    height: 40px;
+    background-color: #EAECE5;
+    margin: 15px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 10px; }
+
+button{
+    background-color: #C07212;
+    font-size: 17px;
+    height: 50px;
+    width: 180px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    margin-top: 25px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #bca86b;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #02165978;
+    transition-duration: 0.5s } 
